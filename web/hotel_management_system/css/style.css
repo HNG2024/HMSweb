@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.filter-status {
+    margin-bottom: 20px;
+}
+
+.filter-status label {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter-status select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.manage-rooms-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manage-rooms-table th,
+.manage-rooms-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+.manage-rooms-table th {
+    background-color: #f8f8f8;
+}
+
+.room-status-occupied .status {
+    color: red;
+    font-weight: bold;
+}
+
+.room-status-available .status {
+    color: green;
+    font-weight: bold;
+}
+
+.room-status-reserved .status {
+    color: orange;
+    font-weight: bold;
+}
+
+.btn-checkin {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-checkin.disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.btn-checkout {
+    background-color: #888;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-checkout.disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.btn-noshows {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}

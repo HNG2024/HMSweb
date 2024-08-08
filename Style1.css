@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+		 .log-page {
+            background-color: skyblue;
+            height: 100vh;
+            font-family: 'Comfortaa', cursive;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #333333;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .container h2 {
+            color: #333333;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #999c9a;
+        }
+
+        .box {
+            width: 100%;
+            border: none;
+            border-bottom: 3px solid #1FAB89;
+            margin: 5px 0;
+            padding: 5px 0;
+            font-size: 1rem;
+            font-weight: 700;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            color: #fff;
+            background-color: #1FAB89;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .error-message {
+            font-size: 16px;
+            color: #cc0000;
+            margin-top: 10px;
+        }
